@@ -1,0 +1,25 @@
+{
+    "run_type": "client",
+    "local_addr": "127.0.0.1",
+    "local_port": 1089,
+    "remote_addr": "hwsrv-1112465.hostwindsdns.com",
+    "remote_port": 443,
+    "password": [
+        "xxxxxxxx"
+    ],
+    "router":{
+        "enabled": true,
+        "bypass": [
+            "geoip:cn",
+            "geoip:private",
+            "geosite:cn",
+            "geosite:geolocation-cn"
+        ],
+        "block": [
+            "geosite:category-ads"
+        ],
+        "proxy": [
+            "geosite:geolocation-!cn"
+        ]
+    }
+}
