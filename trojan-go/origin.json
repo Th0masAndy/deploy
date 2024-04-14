@@ -1,10 +1,1 @@
-{
-    "run_type": "client",
-    "local_addr": "127.0.0.1",
-    "local_port": 1089,
-    "remote_addr": "us-1.trojanwheel.com",
-    "remote_port": 443,
-    "password": [
-        "fckSfd9skEmq69m2WV"
-    ]
-}
+
